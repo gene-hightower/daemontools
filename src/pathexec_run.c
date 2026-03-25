@@ -1,4 +1,4 @@
-/* Public domain. */
+#include <unistd.h>
 
 #include "error.h"
 #include "stralloc.h"

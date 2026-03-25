@@ -1,11 +1,8 @@
-/* Public domain. */
-
 #include "byte.h"
 
-void byte_copyr(to,n,from)
-register char *to;
-register unsigned int n;
-register char *from;
+void byte_copyr(char *to,
+                unsigned int n,
+                char *from)
 {
   to += n;
   from += n;

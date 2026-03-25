@@ -1,10 +1,8 @@
-/* Public domain. */
-
 #ifndef WAIT_H
 #define WAIT_H
 
-extern int wait_pid();
-extern int wait_nohang();
+extern int wait_pid(int *wstat, int pid);
+extern int wait_nohang(int *wstat);
 extern int wait_stop();
 extern int wait_stopnohang();
 

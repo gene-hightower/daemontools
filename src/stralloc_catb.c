@@ -1,5 +1,3 @@
-/* Public domain. */
-
 #include "stralloc.h"
 #include "byte.h"
 

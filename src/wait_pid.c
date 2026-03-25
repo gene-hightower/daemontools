@@ -7,7 +7,7 @@
 
 #ifdef HASWAITPID
 
-int wait_pid(wstat,pid) int *wstat; int pid;
+int wait_pid(int *wstat, int pid)
 {
   int r;
 

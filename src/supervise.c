@@ -16,6 +16,9 @@
 #include "taia.h"
 #include "deepsleep.h"
 
+/* avoid including stdio.h */
+extern int rename(const char *oldpath, const char *newpath);
+
 #define FATAL "supervise: fatal: "
 #define WARNING "supervise: warning: "
 

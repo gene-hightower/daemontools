@@ -1,3 +1,5 @@
+#include <unistd.h>
+
 #include "match.h"
 #include "buffer.h"
 #include "str.h"

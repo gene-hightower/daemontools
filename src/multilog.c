@@ -1,6 +1,10 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/stat.h>
+
+/* avoid including stdio.h */
+extern int rename(const char *oldpath, const char *newpath);
+
 #include "direntry.h"
 #include "alloc.h"
 #include "buffer.h"
